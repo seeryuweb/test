@@ -1,0 +1,12 @@
+@charset "EUC-KR";
+
+input.TextUser{
+	width:100px;
+}
+input.TextTitle{
+	width:500px;
+}
+input.TextContent{
+	width:500px;
+	height:600px;
+}

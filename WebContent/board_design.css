@@ -1,0 +1,33 @@
+@charset "EUC-KR";
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+p{
+	font-size:36px;
+}
+table td{
+	width:100px;
+	border:2px solid #228;
+    overflow:hidden;
+}
+td.entryNum{
+	width:40px;
+	height:20px;
+}
+td.user{
+	width:100px;
+	height:20px;
+
+}
+td.title{
+	width:500px;
+	height:20px;
+
+}
+td.date{
+	width:100px;
+	height:20px;
+	
+}

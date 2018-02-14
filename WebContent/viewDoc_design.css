@@ -1,0 +1,17 @@
+@charset "EUC-KR";
+*{
+	border:0;
+	padding:0;
+	margin:0;
+}
+div.headerArea {
+	width:950px;
+	padding:0 25px 0 25px;
+	background-color:#aea;
+}
+div.contentArea {
+	overflow:scroll;
+	width:950px;
+	padding:30px 25px 0 25px;
+	background-color:#eaa;
+}

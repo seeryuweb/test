@@ -1,0 +1,104 @@
+@charset "EUC-KR";
+.btnWrap .btn{
+	width:100px;
+	height:30px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+.btnWrap{
+	width:900px;
+	height:30px;
+	padding:20px 40px;
+	background-color:#ff8888;
+}
+.btnWrap:after{
+	clear:both;
+}
+.menuWrap{
+	width:900px;
+	height:1800px;
+	padding:20px 40px;
+	background-color:#666666;
+}
+.menuwrap ul{
+
+}
+li{
+	list-style-type:none;
+}
+.menuWrap li{
+	width:400px;
+	height:30px;
+	padding:0;
+	margin:0px 0px 5px 0px;
+	background-color:#ff8888;
+	text-align:left;
+}
+.menuWrap li.selected{
+	background-color:#ff0000;
+}
+.tabMenuWrap{
+	width:900px;
+	height:2000px;
+	padding:20px 40px;
+	background-color:#fecf41;
+}
+.tab-menu{
+	list-style:none;
+	height:80px;
+	padding:0;
+	margin:0;
+}
+.tab-menu:after{
+	clear:both;
+}
+.tab-menu li{
+	width:99px;
+	height:40px;
+	background-position-y:0;
+	text-indent:-1000px;
+	overflow:hidden;
+	display:inline-block;
+	float:left;
+}
+.tab-menu li:hover{
+	background-position-y:-40px;
+}
+.tab-menu li.select{
+	height:80px;
+	background-position-y:-80px;
+}
+.tab-menu li.menuitem1{
+	background-image:url(newbtn.bar.1.png);
+}
+.tab-menu li.menuitem2{
+	background-image:url(newbtn.bar.2.png);
+}
+.tab-menu li.menuitem3{
+	background-image:url(newbtn.bar.3.png);
+}
+.tab-menu li.menuitem4{
+	background-image:url(newbtn.bar.4.png);
+}
+.tab-menu li.menuitem5{
+	background-image:url(newbtn.bar.5.png);
+}
+.tab-contents{
+	position:relative;
+	left:10px;
+	top:10px;
+	width:780px;
+	height:340px;
+	overflow:hidden;
+	background-image:url(content_bg.png);
+}
+.tab-contents .content{
+	position:absolute;
+	left:10px;
+	top:10px;
+	display:none;
+}
+.tab-contents .select{
+	display:block;
+}

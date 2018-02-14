@@ -1,0 +1,47 @@
+@charset "EUC-KR";
+*{
+	margin:0;
+	padding:0;	
+}
+.menuWrap{
+	width:960px;
+	height:40px;
+	background-color:#f8a669;
+}
+.menu{
+	list-style:none;
+}
+.menu li{
+	display:inline-block;
+	float:left;
+	width:120px;
+	height:40px;
+	overflow:hidden;
+}
+.dropWrap{
+	width:960px;
+	height:1080px;
+	background-color:#66adfb;
+	position:relative;
+}
+.parentBox{
+	width:900px;
+	height:500px;
+	padding:10px;
+	margin:15px;
+	border:5px solid #000;
+	position:relative;
+}
+.childBox{
+	border:5px solid #ff0080;
+	margin:15px;
+	padding:10px;
+	position:absolute;
+	left:50px;
+	top:150px;
+}
+.infoBox{
+	border:5px solid #000;
+	margin:15px;
+	padding:10px;
+}

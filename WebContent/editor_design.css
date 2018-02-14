@@ -1,0 +1,16 @@
+@charset "EUC-KR";
+.editorWrap{
+	width:800px;
+	overflow:hidden;
+	padding:5px;
+	background-color:#eaa;
+}
+.titleWrap{
+	width:800px;
+	overflow:hidden;
+	padding:5px;
+	background-color:#aea;
+}
+.titleWrap input[name=title]{
+	width:500px;
+}
